@@ -82,8 +82,8 @@ html, body{
 }
 
 
-.navbar-pane, .card-pane, .form-pane, .dropdown-pane, .alert-pane, .table-pane,
-.split-pane, .flat-pane, .fade-pane, .pagination-pane, .footer-pane{
+.gc-navbar-pane, .gc-card-pane, .gc-form-pane, .gc-dropdown-pane, .gc-alert-pane, .gc-table-pane,
+.gc-split-pane, .gc-flat-pane, .gc-fade-pane, .gc-pagination-pane, .gc-footer-pane{
     display: none;
 }
 
