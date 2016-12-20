@@ -5,12 +5,14 @@
 <head>
 <meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>
-<script src="script.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
 <link rel="stylesheet" type="text/css" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="main.js"></script>
 
 
 
@@ -23,39 +25,41 @@
 		<div class="side-nav">
 		
 	<ul class="nav-list">
-	
+	<li>
+		<a class="selected side-tab">Getting Started</a>
+	</li>
 	<li> 
-	<a> Fixed NavBar </a>
+	<a class="side-tab">Fixed Navbar </a>
 	</li>
 	<li>
-	<a>	Card Design </a>
+	<a class="side-tab">Card Design </a>
 	</li>
 	<li>
-	<a> Forms </a>
+	<a class="side-tab"> Forms </a>
 	</li>
 	<li>
-	<a> Dropdown Menu </a>
+	<a class="side-tab">Dropdown Menu </a>
 	</li>
 		<li> 
-	<a>	Notifications </a>
+	<a class="side-tab">Notifications </a>
 	</li>
 	<li>
-		<a>Tables </a>
+		<a class="side-tab">Tables </a>
 	</li>
 	<li>
-		<a>Buttons </a>
+		<a class="side-tab">Split Screen </a>
 	</li>
 		<li>
-		<a>Breadcrumbs </a>
+		<a class="side-tab">Flat UI Colors </a>
 	</li>
 	<li>
-		<a>Carousel </a>
+		<a class="side-tab">Fade In  Modal </a>
 	</li>
 	<li> 
-	<a>Paginiation </a>
+	<a class="side-tab">Paginiation </a>
 	</li>
 	<li> 
-	<a>Footer </a>
+	<a class="side-tab">Footer </a>
 	</li>
 </ul>
 		
@@ -68,6 +72,8 @@
 					
 				
 					
+					
+					<!--GETTING STARTED -->
 					<div class="content-pane">
 							<h2> Getting Started</h2>
 							The purpose of Bootstrap is to provide a framework in order to easily make your website look clean and responsive on all devices.
@@ -75,8 +81,9 @@
 							
 							<h3>JavaScript and CSS</h3>
 							In order to start using Bootstrap, you need to install the proper JavaScript and CSS files on your web page.
-													<figure class="highlight"> </figure>
-
+							<p data-height="265" data-theme-id="dark" data-slug-hash="ENrEoq" data-default-tab="html" data-user="GColtrane" data-embed-version="2" data-pen-title="Bootstrap 3.3 CDN" class="codepen">See the Pen <a href="http://codepen.io/GColtrane/pen/ENrEoq/">Bootstrap 3.3 CDN</a> by Gary Coltrane (<a href="http://codepen.io/GColtrane">@GColtrane</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+						<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+													
 							
 							
 							
@@ -88,13 +95,25 @@
 						
 					</div>
 					
+					<!--END OF GETTING STARTED-->
 					
-					<div class="content-pane">
+					
+					
+					
+					<!--NAVBARS-->
+					
+					<div class="content-pane navbar-pane">
 					<h2> Navbars </h2>
 					The purpose of navbars on your web page is to make navigation quick and simple. 
 					
 					<h3>Basic Navbar</h3>
 					This is a simple navbar that you can use on the top of your website
+					
+					
+										
+												 
+												 
+
 					<nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -120,15 +139,30 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+
+
+<p data-height="265" data-theme-id="0" data-slug-hash="rWPdxQ" data-default-tab="html,result" data-user="GColtrane" data-embed-version="2" data-pen-title="Bootstrap  Navbar" class="codepen">See the Pen <a href="http://codepen.io/GColtrane/pen/rWPdxQ/">Bootstrap  Navbar</a> by Gary Coltrane (<a href="http://codepen.io/GColtrane">@GColtrane</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>ss
 				
 					<h3>Fixed Navbar</h3>
-					In order make your navbar fixed/sticky to the top of the screen. Simply add navbar-fixed-top to your nav class and a container div class to make sure the content is centered perfectly.
-						<figure class="highlight"> </figure>
-						
+					In order make your navbar fixed/sticky to the top of the screen. Simply add navbar-fixed-top to your nav class.
+				
+					<p data-height="259" data-theme-id="0" data-slug-hash="pNGLwO" data-default-tab="html" data-user="GColtrane" data-embed-version="2" data-pen-title="Fixed bootstrap nav bar" class="codepen">See the Pen <a href="http://codepen.io/GColtrane/pen/pNGLwO/">Fixed bootstrap nav bar</a> by Gary Coltrane (<a href="http://codepen.io/GColtrane">@GColtrane</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+		<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 						
 					</div>
 					
-					<div class="content-pane">
+					
+					<!--END OF NAVBARS-->
+					
+					
+					
+					
+					
+					
+					<!--CARD DESIGN -->
+					
+					<div class="content-pane card-pane">
 						
 						<h2>Card UI Design</h2>
 						Cards are basically components that serve as a key point for detailed information. 
@@ -136,103 +170,176 @@
 						<h3>Basic Card </h3>
 						A basic UI Card can contain content such as photos, text, and links. 
 						
+						<p data-height="356" data-theme-id="dark" data-slug-hash="vybRax" data-default-tab="result" data-user="GColtrane" data-embed-version="2" data-pen-title="Basic Card Design " class="codepen">See the Pen <a href="http://codepen.io/GColtrane/pen/vybRax/">Basic Card Design </a> by Gary Coltrane (<a href="http://codepen.io/GColtrane">@GColtrane</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+						
 						<h3>Profile Card</h3>
 						Cards are predominately represented to contain user profile. 
-						<figure class="highlight"> </figure>
-						
-					</div>
+					<p data-height="265" data-theme-id="dark" data-slug-hash="zoejWN" data-default-tab="css,result" data-user="GColtrane" data-embed-version="2" data-pen-title="Sample Profile Card" class="codepen">See the Pen <a href="http://codepen.io/GColtrane/pen/zoejWN/">Sample Profile Card</a> by Gary Coltrane (<a href="http://codepen.io/GColtrane">@GColtrane</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+
+</div>
+
+								<!--END OF CARD DESIGN-->
 					
-					<div class="content-pane">
+					
+					
+					<!--UI FORMS -->
+					
+					<div class="content-pane form-pane">
 						<h2>Forms</h2>
 						Forms are basically shown across all dynamic websites. Therefore it is best to fully understand and master them as quick as possible. 
 						
 						<h3> Sign up </h3>
 						A basic form form that keeps record of the user's first name, last name email, and password.
+						
+						<p data-height="265" data-theme-id="dark" data-slug-hash="QGYxyN" data-default-tab="html,result" data-user="GColtrane" data-embed-version="2" data-pen-title="Simple form " class="codepen">See the Pen <a href="http://codepen.io/GColtrane/pen/QGYxyN/">Simple form </a> by Gary Coltrane (<a href="http://codepen.io/GColtrane">@GColtrane</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
 						<h3> Sign in form </h3>
 							Username/Email and user password for signing the user in.
-						<figure class="highlight"> </figure>
-					</div>
+<p data-height="265" data-theme-id="dark" data-slug-hash="pNGQeK" data-default-tab="html,result" data-user="GColtrane" data-embed-version="2" data-pen-title="UI Sign in form" class="codepen">See the Pen <a href="http://codepen.io/GColtrane/pen/pNGQeK/">UI Sign in form</a> by Gary Coltrane (<a href="http://codepen.io/GColtrane">@GColtrane</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</div>
+					<!--END OF UI FORMS -->
 					
-					<div class="content-pane">
+					
+					
+					
+					
+					<!--DROPDOWN MENUS-->
+					
+					<div class="content-pane dropdown-pane">
 						<h2>Dropdown Menu</h2>
-						Dropdown menus are popular across many websites 
-						
-						<h3>Simple dropdown</h3>
 						The purpose of a simple dropdown is to display a list of links while dropping content interactively. 
+ 
 						
-						<figure class="highlight"> </figure>
-						
+						<h3>Shopping list drop down dropdown</h3>
+						<p data-height="265" data-theme-id="dark" data-slug-hash="LbqXBG" data-default-tab="html,result" data-user="GColtrane" data-embed-version="2" data-pen-title="LbqXBG" class="codepen">See the Pen <a href="http://codepen.io/GColtrane/pen/LbqXBG/">LbqXBG</a> by Gary Coltrane (<a href="http://codepen.io/GColtrane">@GColtrane</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+				<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+
 					</div>
+					<!--END OF DROPDOWN MENUS-->
 					
-					<div class="content-pane">
+					
+					<!--ALERTS/NOTIFICATIONS-->
+					
+					<div class="content-pane alert-pane">
 						<h2>Notifications</h2>
 						Notifications basically sends the user a quick alert on the web page.
 						<h3>Various Notifications</h3>
 						Alerts/Notifications must be colored coded, if it is colorless, then it wouldn't drive attention from the user.
+						Therefore Bootstrap automatically sets up four color coded alerts, in various classes.
 						
-						<figure class="highlight"> </figure>
-
+						<p data-height="265" data-theme-id="dark" data-slug-hash="aBXPbd" data-default-tab="html,result" data-user="GColtrane" data-embed-version="2" data-pen-title="Alerts/Notifications" class="codepen">See the Pen <a href="http://codepen.io/GColtrane/pen/aBXPbd/">Alerts/Notifications</a> by Gary Coltrane (<a href="http://codepen.io/GColtrane">@GColtrane</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 						
 						
 					</div>
 					
-						<div class="content-pane">
+					<!--END OF ALERTS/NOTIFICATIONS-->
+					
+					
+					
+					<!--TABLES-->
+						<div class="content-pane table-pane">
 							<h2> Tables </h2>
 							Tables are high useful for showing data from databases or detailed content.
 							
 							<h3> Simple User Database table</h3>
 							Here's an example of a table that shows user information
+							<p data-height="265" data-theme-id="dark" data-slug-hash="WoPLrL" data-default-tab="html,result" data-user="GColtrane" data-embed-version="2" data-pen-title="Bootstrap tables" class="codepen">See the Pen <a href="http://codepen.io/GColtrane/pen/WoPLrL/">Bootstrap tables</a> by Gary Coltrane (<a href="http://codepen.io/GColtrane">@GColtrane</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 						
 					</div>
-						<div class="content-pane">
-							<h2>Buttons</h2>
-							Buttons provide communication and interactiveness in websites. 
-							<h3>Pill Button</h3>
-							Pill buttons are predominately used
-							<figure class="highlight"> </figure>
-							<h3>Floating button</h3>
-							Floating buttons are key for mobile design, and has its purpose for users to interact with the site without any scrolling. 
-							<figure class="highlight"> </figure>
+					<!--END OF TABLES-->
+					
+					
+					
+					
+					
+					
+					
+					<!--SPLIT SCREENS -->
+						<div class="content-pane split-pane">
+							<h2>Split Screens</h2>
+								Split screens are commonly seen across various one page websites.
+								
+								
+						<p data-height="265" data-theme-id="0" data-slug-hash="BQbRda" data-default-tab="result" data-user="GColtrane" data-embed-version="2" data-pen-title="Split Screen" class="codepen">See the Pen <a href="http://codepen.io/GColtrane/pen/BQbRda/">Split Screen</a> by Gary Coltrane (<a href="http://codepen.io/GColtrane">@GColtrane</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 					</div>
 					
-						<div class="content-pane">
-							<h2>Breadcrumbs</h2>
-							Breadcrumbs displays link in a hierarchy.
-							<h3>Simple breadcrumb</h3>
+					<!--end of split screens-->
+					
+					
+					
+					<!--FLAT COLORS -->
+					
+						<div class="content-pane flat-pane">
+							<h2>Flat Colors</h2>
+							Flat UI design is VERY IMPORTANT. It gives feel to the website that makes the content very easy and friendly.
 							
-								<figure class="highlight"> </figure>
-						
+							<h3>Sample colors</h3>
+							<p data-height="265" data-theme-id="0" data-slug-hash="JbxgJE" data-default-tab="html,result" data-user="GColtrane" data-embed-version="2" data-pen-title="Flat colors" class="codepen">See the Pen <a href="http://codepen.io/GColtrane/pen/JbxgJE/">Flat colors</a> by Gary Coltrane (<a href="http://codepen.io/GColtrane">@GColtrane</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+
 					</div>
+					<!--END OF FLAT COLORS-->
 					
-						<div class="content-pane">
-								<h2> Carousel </h2>
+					
+					
+					
+					
+					<!--FADE IN BOX-->
+						<div class="content-pane fade-pane">
+								<h2> Fade in Box </h2>
 							Carousels provide the user a list of items to select 
 
-							<h3> Music Album carousel</h3>
-							User gets to browse through these various items and choose to select one for a continous action.
-								<figure class="highlight"> </figure>
+						<p data-height="265" data-theme-id="0" data-slug-hash="LbaPpm" data-default-tab="html,result" data-user="GColtrane" data-embed-version="2" data-pen-title="Fade Box" class="codepen">See the Pen <a href="http://codepen.io/GColtrane/pen/LbaPpm/">Fade Box</a> by Gary Coltrane (<a href="http://codepen.io/GColtrane">@GColtrane</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 						
 					</div>
-						<div class="content-pane">
+			<!--END OF FADE IN BOX		-->
+			
+					
+					
+					
+					<!--PAGINATION-->
+						<div class="content-pane pagination-pane">
 							<h2>Pagination</h2>
 							Pagination provides a simple way to navigate through content
 							<h3>Table pagination</h3>
 							  With pagination, the user can navigate through various contents that may not be fully shown on the table. 
-							  								<figure class="highlight"> </figure>
+							  			<p data-height="265" data-theme-id="0" data-slug-hash="VmRwKY" data-default-tab="html,result" data-user="GColtrane" data-embed-version="2" data-pen-title="Pagination" class="codepen">See the Pen <a href="http://codepen.io/GColtrane/pen/VmRwKY/">Pagination</a> by Gary Coltrane (<a href="http://codepen.io/GColtrane">@GColtrane</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+				<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 						
 					</div>
 					
-						<div class="content-pane">
+					<!--END OF PAGINATION-->
+					
+					
+					
+					
+					<!--FOOTERS -->
+						<div class="content-pane footer-pane">
 							<h2>Footers</h2>
 							Footers describe the end of a web page, which can also provide a sense of navigation
 							<h3>End footer</h3>
 							  This footer allows the user to discover key details of the site and also navigate 
-							  	<figure class="highlight"> </figure>
+							  	<p data-height="265" data-theme-id="0" data-slug-hash="rWRmEv" data-default-tab="css,result" data-user="GColtrane" data-embed-version="2" data-pen-title="Simple fixed navbar and mobile-friendly sticky footer " class="codepen">See the Pen <a href="http://codepen.io/GColtrane/pen/rWRmEv/">Simple fixed navbar and mobile-friendly sticky footer </a> by Gary Coltrane (<a href="http://codepen.io/GColtrane">@GColtrane</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 						
 					</div>
+					
+					<!--END OF FOOTERS-->
 					
 	
 				</div>
