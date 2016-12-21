@@ -2,6 +2,7 @@ html, body{
     height: 100%;
     width: 100%;
     font-family: "Ubuntu", sans-serif;
+    background-color:  #EEEEEE;
 }
 
 
@@ -9,14 +10,13 @@ html, body{
 .side-nav{
     float: left;
     height: 100%;
-    background-color: #CF000F;
+
 
     top:0;
     left: 0;
     position: fixed;
-    z-index: 1;
     padding: 10px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+
 
 
 
@@ -32,8 +32,8 @@ html, body{
 }
 .side-nav ul li {
     list-style: none;
-    padding: 15px;
-    font-size: 20px;
+    padding: 13px;
+    font-size: 17px;
 
  
 }
@@ -41,7 +41,7 @@ html, body{
 
 .side-nav ul li a{
        cursor: pointer;
-       color: white;
+       color: #393939;
 }
 
 
@@ -51,8 +51,7 @@ html, body{
   padding:20px 20px;
   margin: 20px 20px;
   border-radius: 3px;
-   border: 1px solid #ddd;
-   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  border: 1px solid #BBBBBB;
 
 
 }
@@ -83,7 +82,26 @@ html, body{
 
 
 .gc-navbar-pane, .gc-card-pane, .gc-form-pane, .gc-dropdown-pane, .gc-alert-pane, .gc-table-pane,
-.gc-split-pane, .gc-flat-pane, .gc-fade-pane, .gc-pagination-pane, .gc-footer-pane{
+.gc-split-pane, .gc-flat-pane, .gc-fade-pane, .gc-pagination-pane, .gc-footer-pane, .gc-resources-pane{
     display: none;
 }
 
+
+.selected{
+    text-decoration: underline;
+}
+
+.selected:after{
+    padding: 20px;
+}
+
+#logo-head{
+    font-family: 'Yellowtail', cursive;
+    margin-left:45px;
+    font-size: 50px;
+
+}
+
+ul li {
+    list-style: none;
+}
